@@ -29,14 +29,14 @@ switch (getCity) {
     userCity = `Ти живеш у місті ${getCity}`;
 };
 
-switch (getSport.toLowerCase()) {
-  case 'шахи':
+switch (getSport) {
+  case 'Шахи':
     userSport = "Круто! Хочеш стати як Магнус Карлсен?";
     break;
-  case 'формула-1':
+  case 'Формула-1':
     userSport = "Круто! Хочеш стати як Макс Ферстаппен?";
     break;
-  case 'бокс':
+  case 'Бокс':
     userSport = "Круто! Хочеш стати як Олександр Усик?";
     break;
 };
