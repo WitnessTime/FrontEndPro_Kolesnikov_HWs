@@ -1,6 +1,6 @@
 # 004.lesson_08
 
-[Link](https://witnesstime.github.io/FrontEndPro_Kolesnikov_HWs/004.lesson_07/index.html)
+[Link](https://witnesstime.github.io/FrontEndPro_Kolesnikov_HWs/004.lesson_08/index.html)
 
 **Частина №1**
 
