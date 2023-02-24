@@ -1,15 +1,16 @@
-let getYear = +prompt("Введіть рік народження:");
+let getYear = prompt("Введіть рік народження:");
 let getCity = prompt('Введість місто проживання:');
-let getSport = prompt('Введіть ваш улюблений вид спорту:').toLowerCase();
+let getSport = prompt('Введіть ваш улюблений вид спорту:');
 
-let userYear, userCity, userSport;
+let userYear, userCity;
+let userSport = '';
 
 let todayYear = new Date().getFullYear();
 
-if (isNaN(getYear)) {
+if (isNaN(+getYear)) {
   userYear = `То було не число!`
-} else if (getYear >= 1918 && (todayYear - 5) > getYear) {
-  userYear = todayYear - getYear;
+} else if (+getYear >= 1918 && (todayYear - 5) > +getYear) {
+  userYear = todayYear - +getYear;
 } else {
   userYear = 'Маячня якась, вводи дійсні данні.';
 };
@@ -28,7 +29,7 @@ switch (getCity) {
     userCity = `Ти живеш у місті ${getCity}`;
 };
 
-switch (getSport) {
+switch (getSport.toLowerCase()) {
   case 'шахи':
     userSport = "Круто! Хочеш стати як Магнус Карлсен?";
     break;
@@ -38,8 +39,6 @@ switch (getSport) {
   case 'бокс':
     userSport = "Круто! Хочеш стати як Олександр Усик?";
     break;
-  default:
-    userSport = "";
 };
 
 let canceledInputs = [];
