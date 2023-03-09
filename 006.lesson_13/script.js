@@ -62,7 +62,7 @@ alert(`Всі числа в діапазоні від 100 до 200 кратні 
 // Дано натуральне число. Знайти та вивести на сторінку всі його дільники.
 let naturalNumber;
 do {
-  naturalNumber = +prompt(`Natural number?`, 16);
+  naturalNumber = parseInt(prompt(`Введіть натуральне число:\n(Якщо дрібне, то візьме цілу частину)`, 16));
 } while (naturalNumber <= 0);
 
 let naturalNumberDividers = [];
