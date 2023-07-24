@@ -1,0 +1,29 @@
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.productsList,
+.subProducts,
+.infoList {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+}
+
+a {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+p {
+  margin: 5px 0;
+}
+
+button {
+  margin: 5px 0;
+  border: 1px solid black;
+  width: 50px;
+  border-radius: 5px;
+}
