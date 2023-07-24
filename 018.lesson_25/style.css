@@ -1,0 +1,26 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#textChoose {
+  margin: 20px;
+  text-align: center;
+}
+
+.oneSmileDiv {
+  text-align: center;
+}
+
+#smiles {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  font-size: 30px;
+  margin: 0 10px;
+  border: 0;
+  background-color: transparent;
+}
